@@ -1,0 +1,206 @@
+{
+  "project": "XMRT Ecosystem V3",
+  "version": "3.0.0",
+  "created": "2025-07-12T20:04:15.620274",
+  "description": "Complete XMRT V3 ecosystem with frontend, backend, contracts, and AI agents",
+  "structure": {
+    "package.json": {
+      "size": 2138,
+      "type": ".json"
+    },
+    "README.md": {
+      "size": 7433,
+      "type": ".md"
+    },
+    ".gitignore": {
+      "size": 3128,
+      "type": "file"
+    },
+    "docker-compose.yml": {
+      "size": 5880,
+      "type": ".yml"
+    },
+    ".env.example": {
+      "size": 3109,
+      "type": ".example"
+    },
+    "tsconfig.json": {
+      "size": 1866,
+      "type": ".json"
+    },
+    ".eslintrc.js": {
+      "size": 4971,
+      "type": ".js"
+    },
+    ".prettierrc": {
+      "size": 817,
+      "type": "file"
+    },
+    ".editorconfig": {
+      "size": 783,
+      "type": "file"
+    },
+    "frontend": {
+      "package.json": {
+        "size": 3346,
+        "type": ".json"
+      },
+      "next.config.js": {
+        "size": 2618,
+        "type": ".js"
+      },
+      "tsconfig.json": {
+        "size": 1182,
+        "type": ".json"
+      },
+      "tailwind.config.js": {
+        "size": 9682,
+        "type": ".js"
+      },
+      "postcss.config.js": {
+        "size": 154,
+        "type": ".js"
+      },
+      "src": {
+        "app": {
+          "layout.tsx": {
+            "size": 3114,
+            "type": ".tsx"
+          },
+          "page.tsx": {
+            "size": 643,
+            "type": ".tsx"
+          }
+        },
+        "components": {
+          "providers.tsx": {
+            "size": 1303,
+            "type": ".tsx"
+          },
+          "layout": {
+            "navigation.tsx": {
+              "size": 4652,
+              "type": ".tsx"
+            },
+            "footer.tsx": {
+              "size": 7391,
+              "type": ".tsx"
+            }
+          }
+        },
+        "styles": {
+          "globals.css": {
+            "size": 4951,
+            "type": ".css"
+          }
+        }
+      }
+    },
+    "backend": {
+      "package.json": {
+        "size": 3189,
+        "type": ".json"
+      },
+      "tsconfig.json": {
+        "size": 1676,
+        "type": ".json"
+      },
+      "src": {
+        "app.ts": {
+          "size": 4241,
+          "type": ".ts"
+        },
+        "index.ts": {
+          "size": 1537,
+          "type": ".ts"
+        },
+        "config": {
+          "index.ts": {
+            "size": 3759,
+            "type": ".ts"
+          }
+        }
+      }
+    },
+    "contracts": {
+      "package.json": {
+        "size": 2238,
+        "type": ".json"
+      },
+      "hardhat.config.ts": {
+        "size": 3751,
+        "type": ".ts"
+      },
+      "src": {
+        "core": {
+          "XMRTToken.sol": {
+            "size": 7110,
+            "type": ".sol"
+          }
+        },
+        "governance": {
+          "XMRTGovernance.sol": {
+            "size": 9546,
+            "type": ".sol"
+          }
+        }
+      },
+      "scripts": {
+        "deploy.ts": {
+          "size": 2136,
+          "type": ".ts"
+        }
+      }
+    },
+    "ai-agents": {
+      "governance": {
+        "src": {
+          "index.ts": {
+            "size": 1586,
+            "type": ".ts"
+          }
+        }
+      },
+      "treasury": {
+        "src": {
+          "index.ts": {
+            "size": 1678,
+            "type": ".ts"
+          }
+        }
+      },
+      "community": {
+        "src": {
+          "index.ts": {
+            "size": 2022,
+            "type": ".ts"
+          }
+        }
+      }
+    },
+    "docs": {
+      "api": {
+        "README.md": {
+          "size": 1723,
+          "type": ".md"
+        }
+      },
+      "deployment": {
+        "README.md": {
+          "size": 1235,
+          "type": ".md"
+        }
+      }
+    },
+    ".github": {
+      "workflows": {
+        "ci-cd.yml": {
+          "size": 5777,
+          "type": ".yml"
+        }
+      }
+    }
+  },
+  "file_count": 36,
+  "total_size": 122365
+}
