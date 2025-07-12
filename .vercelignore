@@ -1,0 +1,64 @@
+# XMRT Ecosystem V3 - Vercel Deployment Exclusions
+
+# Exclude backend services (not needed for frontend deployment)
+backend/
+ai-agents/
+contracts/
+docs/
+
+# Exclude development and build artifacts
+node_modules/
+.git/
+.github/
+*.log
+*.zip
+*.tar.gz
+
+# Exclude environment files (use Vercel environment variables instead)
+.env
+.env.local
+.env.development
+.env.production
+
+# Exclude IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Exclude OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Exclude test files and coverage reports
+coverage/
+.nyc_output/
+*.test.js
+*.test.ts
+*.test.tsx
+*.spec.js
+*.spec.ts
+*.spec.tsx
+
+# Exclude documentation and markdown files (except README)
+*.md
+!README.md
+
+# Exclude Docker files
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Exclude package lock files (Vercel will generate its own)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Exclude TypeScript build info
+*.tsbuildinfo
